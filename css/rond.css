@@ -1,0 +1,45 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#kraken {
+  background-image: url('../img/krakenjs-plain.svg');
+  background-position: center;
+}
+
+#redhat {
+  background-image: url('../img/redhat-plain.svg');
+  background-position: center;
+}
+
+#github {
+  background-image: url('../img/github-original.svg');
+  background-position: center;
+}
+
+#cv {
+  background-image: url('../img/parchemin.png');
+  background-position: center;
+}
+
+.rond {
+  height: 220px;
+  width: 220px;
+  border: 1px solid black;
+  border-radius: 100%;
+  margin: 30px 30px;
+  transition: box-shadow 0.3s;
+  transition-timing-function: ease;
+}
+
+.rond:hover {
+  -moz-box-shadow: 0 0 0 15px rgb(255, 255, 255);
+  -webkit-box-shadow: 0 0 0 15px rgb(255, 255, 255);
+  box-shadow: inset 0 0 0 15px rgb(255, 255, 255);
+  transition: box-shadow 0.3s;
+  transition-timing-function: ease;
+}

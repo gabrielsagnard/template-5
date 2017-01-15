@@ -1,0 +1,52 @@
+/*----------FORMULAIRE DE CONTACT----------*/
+
+form {
+  width: 50%;
+  margin: 40px auto;
+}
+
+#zonetexte {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+}
+
+input[type=text] {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type=text]:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+textarea {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+}
+
+#envoyer {
+  background-color: rgb(210, 210, 210);
+  color: black;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  padding: 10px;
+}
+
+#envoyer:hover {
+  background-color: #e7e7e7;
+}
